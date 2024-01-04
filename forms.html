@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-sacle=1.0">
+    <title>Forms in html</title>    
+    <body>
+        <form action="/">
+            <fieldset>
+                <legend>Personal details</legend>
+                <label for="firstname">Firstname</label>
+                <input type="text" name="firstname" id="firstname"  minlength="4" max="20" required><br><br>
+                <label for="middlename">Middlename :</label>
+                <input type="text" name="middlename" id="middlename"  minlength="4" max="15"><br><br>
+                <label for="lastname">Lastname :</label>
+                <input type="text" name="lastname" id="lastname"  minlength="4" max="15"><br><br>
+                <label for="course">course :</label>
+                <select name="course" id="course">
+                    <option value="none">course</option>
+                    <option value="bca">BCA</option>
+                    <option value="bba">BBA</option>
+                    <option value="b.tech">B.Tech</option>
+                    <option value="mba">MBA</option>
+                    <option value="bcom">MCA</option>
+                    <option value="m.tech">M.Tech</option>
+                </select><br><br><br>
+                <label for="gender">Gender :</label><br>
+                <input type="radio" name="gender" id="gender" value="male">
+                <lablel for="male">Male</lablel><br>
+                <input type="radio" name="gender" id="gender" value="female">
+                <lablel for="female">Female</lablel><br>
+                <input type="radio" name="gender" id="gender" value="other">
+                <lablel for="other">Other</lablel><br><br>
+                <label for="dob">DOB :</label>
+                <input type="date" id="dob" name="dob"><br><br>
+                <label for="phonenumber">Phonenumber</label>
+                <input type="number" name="phonenumber" id="phonenumber"><br><br>
+                <label for="address">Address</label>
+                <input for="textarea" id="address" name="address" row="60" col="3">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email"><br><br>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password"><br><br>
+                <label for="repassword"> Re-type password</label>
+                <input type="password" name="repassword" id="repassword"><br><br>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Agree to terms and conditions</label><br><br>
+                <label for="file">Choose file</label>
+                <input type="file" name="file" id="file"><br><br>
+                <label for="choosecolor">Choose color</label>
+                <input type="color" name="color" id="choosecolor"><br><br>
+                <input type="reset">
+                <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+    </html>
